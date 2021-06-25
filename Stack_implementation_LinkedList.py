@@ -8,7 +8,7 @@ class Node:
         self.data=data
         self.next=None
 
-class LinkedList:
+class Stack:
     def __init__(self): #for head
         self.head=None
 
@@ -38,10 +38,10 @@ class LinkedList:
         if self.head.next == None:
             self.head = None
             return None
-        self.second_last = self.head
-        while(self.second_last.next.next):
-            self.second_last = self.second_last.next
-        self.second_last.next = None
+        second_last = self.head
+        while(second_last.next.next):
+            second_last = second_last.next
+        second_last.next = None
         return 
         
         
@@ -55,17 +55,17 @@ class LinkedList:
 # Code execution starts here
 if __name__=='__main__':
 
-    llist = LinkedList()
+    s = Stack()
  
-    llist.push(1)
-    llist.push(7)
-    llist.push(8)
-    llist.push(6)
-    llist.push(4)
+    s.push(1)
+    s.push(7)
+    s.push(8)
+    s.push(6)
+    s.push(4)
  
     print ('Created linked list is:')
-    llist.printList()
+    s.printList()
     print("POP out the TOP element")
-    llist.pop()
+    s.pop()
     print("New List:")
-    llist.printList()
+    s.printList()
