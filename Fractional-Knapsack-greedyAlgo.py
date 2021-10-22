@@ -1,5 +1,5 @@
 #Greedy algorithm
-#Fractional Knapsack algo
+#Fractional Knapsack algo...
 
 n=int(input("Enter no. of items: "))
 maxwt=int(input("Maximum weight: "))
