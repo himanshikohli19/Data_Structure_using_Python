@@ -1,5 +1,5 @@
 #Greedy algorithm
-#0/1 Knapsack algo
+#0/1 Knapsack algo..
 
 def greedy_knapsack(values,weights,capacity):
     n = len(values)
