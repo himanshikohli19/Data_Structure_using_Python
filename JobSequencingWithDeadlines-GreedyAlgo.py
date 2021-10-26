@@ -24,6 +24,6 @@ def printJobSequence(arr,t):
     print(job)
 
 #driver code
-arr=[['A',2,100],['B',1,19],['C',2,37],['D',1,25],['E',3,17],['F',4,10],]
+arr=[['A',2,100],['B',1,19],['C',2,37],['D',1,26],['E',3,17],['F',4,10],]
 print("following is the maximum profit scheduling of Jobs: ")
 printJobSequence(arr,4)
