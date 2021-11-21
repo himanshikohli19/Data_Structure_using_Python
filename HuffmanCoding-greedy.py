@@ -75,5 +75,5 @@ while len(nodes) > 1:
 	nodes.remove(right)
 	nodes.append(newNode)
 
-# Huffman Tree is ready!
+# Huffman Tree print
 printNodes(nodes[0])
